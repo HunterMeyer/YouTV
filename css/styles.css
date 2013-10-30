@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+}
+
+#brand {
+  /*font-family: 'Oleo Script', cursive;*/
+  font-family: 'Fugaz One', cursive;
+}
+
+#search-youtube {
+  text-align: center;
+}
+
+#search-item {
+  box-shadow: inset 0px 1px 2px black;
+  margin-right: 5px;
+  border: none;
+  height: 21px;
+  font-family: 'Fugaz One', cursive;
+}
+
+#play, #pause, #prevVideo, #nextVideo, #about {
+  color: white;
+  border: none;
+  border-radius: 2px;
+  height: 32px;
+  width: 92px;
+  margin-top: 4px;
+  margin-right: 3px;
+}
+
+#play {
+  background-color: #2ecc71;
+  border-bottom: 3px solid #209E56;
+}
+
+#play:hover {
+  background-color: #209E56;
+  border-bottom: 3px solid #2ecc71;  
+}
+
+#pause {
+  background-color: #e74c3c;
+  border-bottom: 3px solid #BB3C2F;
+  display: none;
+}
+
+#pause:hover {
+  background-color: #BB3C2F;
+  border-bottom: 3px solid #e74c3c;  
+}
+
+#prevVideo {
+  background-color: #f39c12;
+  border-bottom: 3px solid #B17413;
+}
+
+#prevVideo:hover {
+  background-color: #B17413;
+  border-bottom: 3px solid #f39c12;  
+}
+
+#nextVideo {
+  background-color: #3498db;
+  border-bottom: 3px solid #1B66AF;
+}
+
+#nextVideo:hover {
+  background-color: #1B66AF;
+  border-bottom: 3px solid #3498db; 
+}
+
+#about {
+  background: #555555;
+  border-bottom: 3px solid #2E2E2E;
+}
+
+#about:hover {
+  background: #2E2E2E;
+  border-bottom: 3px solid #555555;
+}
+
+#myModalLabel {
+  font-family: 'Fugaz One', cursive;
+}
+
+.ahref {
+  color: #5CFF4D;
+}
+
+/*#movie-list {
+  background-color: white;
+  border-radius: 5px;
+  width: 30%;
+  height: 30%;
+  opacity: 0.8;
+  margin: 0 auto;
+  text-align: center;
+  display: none;
+}
+
+#docu-list {
+  background-color: white;
+  border-radius: 5px;
+  width: 30%;
+  height: 30%;
+  opacity: 0.8;
+  margin: 0 auto;
+  text-align: center;
+  display: none;
+}*/

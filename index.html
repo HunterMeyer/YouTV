@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>YouTV</title>
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script|Fugaz+One' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+<script src="js/jquery.js" type="text/javascript"></script> 
+<script src="js/bootstrap.js"></script>
+<script src="http://www.google.com/jsapi"></script>
+<script src="js/scripts.js" type="text/javascript"></script>
+</head>
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+  <div id="wrapper">
+    <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+
+          <a class="brand" id="brand">YouTV</a>
+          <input type="button" id="prevVideo" value="<<">
+          <input type="button" id="play" onClick="playVideo()" value=">">
+          <input type="button" id="pause" onClick="pauseVideo()" value="ll">
+          <input type="button" id="nextVideo" value=">>">
+          <input type="button" id="about" class="pull-right" value="?">
+<!--           <button style="float: right;" class="btn" id="movies">Full Movies</button>
+          <button style="float: right; margin-right: 5px;" class="btn" id="docus">Documentaries</button> -->
+
+          <form id="search-youtube" class="navbar-search pull-left">
+            <input id="search-item" placeholder="Give Me a Topic and I'll Give You Videos" type="text">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div>
+<!--     <div id="movie-list"><h1>Full Movies</h1><h3 id="close">[close]</h3></div>
+    <div id="docu-list"><h1>Documentaries</h1><h3 id="close2">[close]</h3></div>
+    <div>
+      <ul class="video-list"> </ul>
+    </div> -->
+
+    <div id="player"></div>
+  </div>
+
+  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" id="modal-close" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <h3 id="myModalLabel">About YouTV</h3>
+    </div>
+    <div class="modal-body">
+      <p>YouTV is a streaming video player created by <a href="http://huntermeyer.site44.com" class="ahref" target="_blank">Hunter Meyer</a> and <a href="http://bobbyhgraysonii.site44.com" class="ahref" target="_blank">Bobby Grayson</a>. 
+      <br><br>The two minds came together to meet a simple need: <em>to endlessly stream YouTube videos without ads, interuptions, or too much thought</em>.
+      <br><br>After careful planning and execution they proudly present YouTV! So go ahead, turn on, tune in and start your marathon!</p>
+    </div>
+  </div>
+</body>
+</html>
