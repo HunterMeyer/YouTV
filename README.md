@@ -1,5 +1,5 @@
 # YouTV
-This a streaming video player that uses the YouTube Player and Data APIs and is built using JavaScript and jQuery.
+This a streaming video player that uses YouTube's Player and Data APIs and is built using JavaScript and jQuery.
 
 # How it works
 Simply type in a search query and hit enter. The player will automatically load another video when a video ends.
