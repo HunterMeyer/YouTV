@@ -83,52 +83,6 @@ var tag = document.createElement('script');
       index++;
     });
 
-    // $("#movies").click(function() {
-    //   $.get("https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&key=AIzaSyDzYngwogk7xB6_35qRl3lsGrReDZ76fy4&playlistId=PL630A871915194939")
-    //   .done(function(responseContent) {
-    //     responseContent.items.forEach(function(content) {
-    //       $("#movie-list").append("<p id=" + content.snippet.resourceId.videoId + ">" + content.snippet.title + "</p>"); 
-    //     });
-    //   })
-    //   .done(function() {
-    //     $("#movie-list").fadeIn(400);
-    //   })
-    //   .done(function() {
-    //     $("#movie-list p").click(function() {
-    //       var theVideoId = $(this).attr("id");
-    //       $("#movie-list").fadeOut(400);
-    //       loadVideo(theVideoId);
-    //     });
-    //   });
-    // });
-
-    // $("#close").click(function() {
-    //   $("#movie-list").fadeOut(400);
-    // });
-
-    // $("#close2").click(function() {
-    //   $("#docu-list").fadeOut(400);
-    // });
-
-    // $("#docus").click(function() {
-    //   $.get("https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&key=AIzaSyDzYngwogk7xB6_35qRl3lsGrReDZ76fy4&playlistId=PL413299DC95044CED")
-    //   .done(function(responseContent) {
-    //     responseContent.items.forEach(function(content) {
-    //       $("#docu-list").append("<p id=" + content.snippet.resourceId.videoId + ">" + content.snippet.title + "</p>"); 
-    //     });
-    //   })
-    //   .done(function() {
-    //     $("#docu-list").fadeIn(400);
-    //   })
-    //   .done(function() {
-    //     $("#docu-list p").click(function() {
-    //       var theVideoId = $(this).attr("id");
-    //       $("#docu-list").fadeOut(400);
-    //       loadVideo(theVideoId);
-    //     });
-    //   });
-    // });
-
     $("#prevVideo").click(function() {
       loadVideo(videoIDs[index-1]);
       index--;
@@ -183,3 +137,4 @@ var tag = document.createElement('script');
       $("#play").trigger('click');
     });
   });
+  
