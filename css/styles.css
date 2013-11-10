@@ -3,7 +3,6 @@ body {
 }
 
 #brand {
-  /*font-family: 'Oleo Script', cursive;*/
   font-family: 'Fugaz One', cursive;
 }
 
@@ -87,25 +86,3 @@ body {
 .ahref {
   color: #5CFF4D;
 }
-
-/*#movie-list {
-  background-color: white;
-  border-radius: 5px;
-  width: 30%;
-  height: 30%;
-  opacity: 0.8;
-  margin: 0 auto;
-  text-align: center;
-  display: none;
-}
-
-#docu-list {
-  background-color: white;
-  border-radius: 5px;
-  width: 30%;
-  height: 30%;
-  opacity: 0.8;
-  margin: 0 auto;
-  text-align: center;
-  display: none;
-}*/
